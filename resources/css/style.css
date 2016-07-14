@@ -64,8 +64,8 @@ h3{
     width: 100%;
     position: fixed;
     top: 0px;
-    background: black; /* For browsers that do not support gradients */    
-    background: #7f8c8d; 
+    background: black; /* For browsers that do not support gradients */
+    background: #7f8c8d;
     z-index: 99999;
 }
 
@@ -82,7 +82,7 @@ h3{
     list-style: none;
     margin-top: 15px;
     padding-bottom: 5px;
-    background: rgba(127, 140, 141, 1); 
+    background: rgba(127, 140, 141, 1);
 }
 
 /* Mobile Navi */
@@ -147,11 +147,15 @@ h3{
     margin-top:60px;
     display: block;
     background:  -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),url(img/skyline-min.jpeg);
+    background:  -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),url(img/skyline.jpeg);
     background:  linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),url(img/skyline.jpeg);
     background-size: cover;
@@ -244,11 +248,15 @@ h3{
     height: 750px;
     margin: 0px;
     background: -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),url(img/dark-buildings-min.jpeg);
+    background: -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ),url(img/dark-buildings.jpeg);
     background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ),url(img/dark-buildings.jpeg);
     background-repeat: no-repeat;
@@ -267,7 +275,7 @@ h3{
     height: auto;
     width: auto
 }
-    
+
 .about-paragraph-width {
     width: 50%;
     text-align: left;
@@ -284,11 +292,15 @@ h3{
     height: 750px;
     margin: 0px;
     background-image:  -webkit-linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ), url(img/gears-min.jpg);
+    background-image:  -webkit-linear-gradient(
+      rgba(0, 0, 0, 0.7),
+      rgba(0, 0, 0, 0.7)
+    ), url(img/gears.jpg);
     background-image:  linear-gradient(
-      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7),
       rgba(0, 0, 0, 0.7)
     ), url(img/gears.jpg);
     background-repeat: no-repeat;
@@ -322,7 +334,7 @@ h3{
     width: 100%;
     float: left;
     opacity: 0.8;
-    height: auto;
+    height: 200px;
     -webkit-transform: scale(1);
     transform: scale(1);
     -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
@@ -334,7 +346,7 @@ h3{
 .work-preview img:hover{
     opacity: 1;
     -webkit-transform: scale(1.1);
-    transform: scale(1.1);  
+    transform: scale(1.1);
 }
 
 /* -------- CONTACT -------- */
@@ -344,7 +356,7 @@ h3{
     width: 100%;
     height: 750px;
     margin: 0px;
-    background: url(img/desert-horizon-min.jpeg);  
+    background: url(img/desert-horizon-min.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -386,7 +398,7 @@ h3{
     display: inline-block;
     font-weight: 300;
     padding: 0;
-} 
+}
 
 .bottom-nav li a:link,
 .bottom-nav li a:visited{

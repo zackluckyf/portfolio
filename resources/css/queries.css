@@ -1,12 +1,12 @@
 
 /* Designed to fit bigger screens naturally */
 @media only screen and (max-width: 1200px){
-    
+
 }
 
 /* Handles 700px to 900px */
 @media only screen and (max-width: 900px){
- 
+
     html{font-size: 22px;}
     h1 {font-size: 250%;}
     h2 {font-size: 210%;}
@@ -63,4 +63,5 @@
     .contact-page {height: 450px;}
     .bottom-nav:last-child{margin-right: 0;}
     .footer{font-size: 95%;}
+    .work-preview img{height: 170px;}
 }

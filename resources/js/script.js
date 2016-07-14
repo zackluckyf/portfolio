@@ -17,7 +17,7 @@ $(document).ready(function(){
       });
     });
     
-        /* Movile Navigation */
+        /* Mobile Navigation */
     
     $('.js--nav-icon').click(function() {
         var nav = $('.js--main-nav');
